@@ -15,9 +15,8 @@ header {
     color: black;
     text-align: center;
     padding: 3px;
-    position: fixed;
-    width: 98vw;
-    top: 0%;
+    width: 95vw;
+    margin: auto;
 
     font-family: 'bts';
     font-size: 1.2em;
@@ -41,9 +40,17 @@ body{
 main{
     margin: auto;
     margin-top: 50px;
-    width: 80vw;
+    width: 90vw;
+    max-width: 800px;
     height: 100vh;
 
     background-color: rgba(0, 0, 0, 0.438);
     color: white;
+}
+main p{
+    font-size: 2em;
+    text-align: justify;
+    text-indent: 20px;
+
+    padding: 10px;
 }

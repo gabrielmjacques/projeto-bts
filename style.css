@@ -15,7 +15,8 @@ header {
     color: black;
     text-align: center;
     padding: 3px;
-    width: 98vw;
+    width: 95vw;
+    margin: auto;
 
     font-family: 'bts';
     font-size: 1.2em;
