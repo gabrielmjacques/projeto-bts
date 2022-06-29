@@ -42,9 +42,10 @@ main{
     margin-top: 50px;
     width: 90vw;
     max-width: 800px;
-    height: 100vh;
+    height: max-content;
+    border-radius: 20px;
 
-    background-color: rgba(0, 0, 0, 0.438);
+    background-color: rgba(0, 0, 0, 0.596);
     color: white;
 }
 main p{
@@ -52,5 +53,5 @@ main p{
     text-align: justify;
     text-indent: 20px;
 
-    padding: 10px;
+    padding: 20px;
 }
