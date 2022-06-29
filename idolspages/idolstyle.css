@@ -26,9 +26,24 @@ header {
 }
 
 body{
-    background-color: black;
+    background-image: url(../content/rm.jpeg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
     font-family: 'bts', Arial, Helvetica, sans-serif;
     color: white;
 
     text-align: center;
+}
+
+main{
+    margin: auto;
+    margin-top: 50px;
+    width: 80vw;
+    height: 100vh;
+
+    background-color: rgba(0, 0, 0, 0.438);
+    color: white;
 }

@@ -15,9 +15,7 @@ header {
     color: black;
     text-align: center;
     padding: 3px;
-    position: fixed;
     width: 98vw;
-    top: 0%;
 
     font-family: 'bts';
     font-size: 1.2em;
@@ -35,7 +33,7 @@ body{
 .introduction{
     text-align: center;
     font-size: 3em;
-    width: 400px;
+    width: 300px;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -50,7 +48,7 @@ body{
     background-color: white;
     color: black;
 
-    border-radius: 50px 50px 0px 0px;
+    border-radius: 50px 50px 30px 30px;
     padding: 5px;
 
     font-size: 2em;
@@ -59,9 +57,20 @@ body{
     width: 100%;
     margin-bottom: 20px;
 
-    border-radius: 0px 0px 20px 50px;
+    border-radius: 0px 0px 50px 50px;
 
     outline: 1px dashed white;
+}
+
+.idols:hover{
+    transform: scale(102%);
+
+    transition-duration: 0.5s;
+}
+.idols:not(:hover){
+    transform: scale(100%);
+
+    transition-duration: 0.5s;
 }
 
 a{
