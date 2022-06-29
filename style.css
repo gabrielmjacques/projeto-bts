@@ -1,0 +1,70 @@
+@charset 'UTF-8';
+
+@font-face {
+    font-family: 'bts';
+    src: url('SolanoGothicMVB-Bd.ttf') format('truetype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 3px;
+    position: fixed;
+    width: 99vw;
+    top: 0%;
+
+    font-family: 'bts';
+    font-size: 1.2em;
+
+    border-radius: 0px 0px 20px 20px;
+}
+
+body{
+    background-color: black;
+    font-family: 'bts', Arial, Helvetica, sans-serif;
+    color: white;
+
+    text-align: center;
+}
+.introduction{
+    text-align: center;
+    font-size: 3em;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.membros{
+    margin: auto;
+    width: 98vw;
+    max-width: 700px;
+}
+.membros h2{
+    background-color: white;
+    color: black;
+
+    border-radius: 50px 50px 0px 0px;
+    padding: 5px;
+
+    font-size: 2em;
+}
+.idols{
+    width: 100%;
+    margin-bottom: 20px;
+
+    border-radius: 0px 0px 20px 50px;
+
+    outline: 1px dashed white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
