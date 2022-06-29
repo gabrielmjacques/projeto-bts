@@ -64,6 +64,10 @@ body{
     outline: 1px dashed white;
 }
 
+a{
+    text-decoration: none;
+}
+
 footer {
     background-color: black;
     color: white;

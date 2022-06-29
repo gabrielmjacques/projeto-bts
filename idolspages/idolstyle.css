@@ -1,0 +1,34 @@
+@charset 'UTF-8';
+
+@font-face {
+    font-family: 'bts';
+    src: url('../SolanoGothicMVB-Bd.ttf') format('truetype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 3px;
+    position: fixed;
+    width: 99vw;
+    top: 0%;
+
+    font-family: 'bts';
+    font-size: 1.2em;
+
+    border-radius: 0px 0px 20px 20px;
+}
+
+body{
+    background-color: black;
+    font-family: 'bts', Arial, Helvetica, sans-serif;
+    color: white;
+
+    text-align: center;
+}
