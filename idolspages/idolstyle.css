@@ -54,19 +54,20 @@ main h2{
     margin-top: 20px;
 }
 main p{
-    background-color: rgba(0, 0, 0, 0.596);
+    background-color: #000000bd;
 
     font-size: 5vw;
     text-align: left;
     text-indent: 20px;
     text-shadow: 0px 4px #b9b9b9d3;
 
+    box-shadow: 0px 10px 30px black;
+
     padding: 20px;
     padding-bottom: 40px;
 }
 img{
     width: 50vw;
-    height: 50vh;
     max-width: 300px;
     margin: 15px;
 
@@ -74,5 +75,5 @@ img{
     box-shadow: 0px 10px 20px #d6d6d6d3, 0px 10px #d6d6d6d3;
 }
 .galeria{
-    background-color: rgba(0, 0, 0, 0.596);
+    background-color: #000000bd;
 }
