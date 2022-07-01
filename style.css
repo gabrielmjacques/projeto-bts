@@ -68,7 +68,7 @@ body{
     font-size: 2em;
 }
 .idols{
-    width: 100%;
+    width: 95%;
     margin-bottom: 20px;
 
     border-radius: 10px;
@@ -83,6 +83,7 @@ body{
     transform: scale(102%);
     border-radius: 50px;
     filter: saturate(2);
+    box-shadow: -10px 0px 30px #ffffff2a, 10px 0px 30px #ffffff2a;
     
     transition-duration: 0.5s;
 }
